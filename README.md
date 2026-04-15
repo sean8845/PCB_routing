@@ -19,7 +19,10 @@ The routing process is divided into two main stages: clearing the board and gene
 
 - Once the board is clear, you can run the pathfinding algorithm to connect the netlist.
 - Available Scripts:
+
     a. routing\_4direction.py: Restricts routing to horizontal and vertical movements only.
+
     b. routing\_8direction.py: Allows diagonal movements for more efficient and flexible paths.
+    
 - Action: The script calculates the shortest path between pins based on grid coordinates and writes the new track data back into a KiCad-compatible file.
 
